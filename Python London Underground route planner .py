@@ -595,8 +595,14 @@ init_graph["Bank"]["Waterloo"] = 5
 
 
 graph = Graph(nodes, init_graph)
-depart = input("Enter Departue Station:")
-arrival = input("Enter Arrival Station:")
+def match_node(name):
+    for n in nodes:
+        if n.strip().lower() == name.strip().lower():
+            return n
+    return name
+
+depart = match_node(input("Enter Departue Station:"))
+arrival = match_node(input("Enter Arrival Station:"))
 previous_nodes, shortest_path = dijkstra_algorithm(graph=graph, start_node=depart)
 try:
 
