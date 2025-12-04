@@ -1,5 +1,7 @@
 # London Underground Route Planner
 
+A Python route planner for the London Underground using Dijkstra's algorithm
+
     Note: This was a group coursework project created by me and three of my colleagues from university
 
 ---
