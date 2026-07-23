@@ -1,8 +1,15 @@
-# London Underground Route Planner
+# <div align="center"> London Underground Route Planner </div>
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 A Python route planner for the London Underground using Dijkstra's algorithm
 
     Note: This was a group coursework project created by me and three of my colleagues from university
+
+</div>
 
 ---
 
@@ -50,3 +57,4 @@ Features
    - Python 3.x
 
     No external dependencies required
+
